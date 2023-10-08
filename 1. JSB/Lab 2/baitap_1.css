@@ -1,0 +1,12 @@
+ul{
+    font-weight: 700;
+    font-size:large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:darkgreen
+}
+li{
+    list-style:disc;
+}
+html{
+    background-color:antiquewhite
+}

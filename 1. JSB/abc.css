@@ -1,0 +1,80 @@
+/* Main styles */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+nav ul {
+	list-style: none;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	padding: 40px 20px;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-gap: 40px;
+}
+
+.product-info img {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.product-features ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+.product-features li::before {
+	content: '-';
+	margin-right: 5px;
+}
+
+.product-specifications table {
+	border-collapse: collapse;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.product-specifications th, td {
+	padding: 10px;
+	border: 1px solid #ddd;
+}
+
+.product-specifications th {
+	background-color: #eee;
+}
+
+.product-reviews li {
+	margin-bottom: 5px;
+}

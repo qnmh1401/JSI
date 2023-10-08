@@ -1,0 +1,30 @@
+div{
+    margin:auto;
+    margin-top: 50px;
+    box-shadow: 6px 5px 6px 6px rgb(0 0 0 / 16%);
+    height: 550px;
+    width: 700px;
+    padding: 1em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color:antiquewhite;
+    border-radius: 5%;
+
+   
+
+}
+html{
+    background-color:rgb(49, 133, 49);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+h1{
+    color:rgb(1, 58, 1);
+}
+li{
+    list-style: none;
+    font-weight: 600;
+    margin-right: 70px;
+}
+

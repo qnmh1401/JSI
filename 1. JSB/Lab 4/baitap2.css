@@ -1,0 +1,79 @@
+html{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}   
+
+body{
+    margin:0;
+}
+.body{
+    display:flex;
+    align-items:center;
+}
+
+.left{
+    display:flex;
+    width:30%;
+    height:650px;
+    background-color:aqua;
+    margin:10px;
+    text-align:center;
+    align-items:center;
+    background-color:antiquewhite;
+    color:darkgreen;
+}
+
+.right{
+    width:70%;
+    height:650px;
+    margin:10px;
+}
+
+.danhsach1{
+    width:30%;
+    margin:none;
+}
+
+.danhsach2{
+    width:30%;
+}
+
+.danhsach3{
+    width:30%;
+}
+
+.danhsachnnlt{
+    display:flex;
+    align-items:center;
+    margin-top:50px;
+    font-size:larger
+}
+
+li{
+    list-style:circle
+}
+
+a{
+    text-decoration:none;
+    display:block;
+    width:175px;
+    height:60px;
+    border-radius:5px;
+}
+
+a{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:antiquewhite;
+    cursor: pointer;
+    color:darkgreen;
+}
+
+.button{
+    margin-top:50px;
+}
+
+.fist{
+    color:darkgreen;
+}

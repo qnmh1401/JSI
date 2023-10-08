@@ -1,0 +1,1010 @@
+
+body{
+    margin:0;
+
+}
+
+button{
+    cursor:pointer;
+}
+
+a{
+    text-decoration-line: none;;
+    color:black;
+    cursor:pointer;
+}
+
+input:focus{
+    outline:none;
+    cursor:pointer;
+}
+
+/* BẮT ĐẦU NAVBAR */
+.navbar{
+    position:fixed;
+    z-index:1;
+    display:flex;
+    width:100%;
+    height:60px;
+    background-color:#062239;
+    color:white;
+    justify-content:space-around;
+    align-items:center;
+   top:0;
+    
+}
+
+.about{
+    margin-right: 50px;
+}
+
+.logo{
+    font-family: 'Dancing Script', cursive;
+    font-size:xx-large;
+    margin:5px 500px 0px 19px;
+}
+
+.nav{
+    font-family: 'DynaPuff', cursive;
+    font-size:x-large;
+
+}
+
+.navbar a{
+    text-decoration: none;
+    color:white;
+}
+
+.point:hover{
+    transform:translateY(-5px);
+    color:#e7808f;
+}
+
+.search{
+    display:flex;
+    width: 100%;
+    height:80px;
+    background-color:#e7808f;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    
+}
+
+.searchform input{
+    width:500px;
+    height:40px;
+    border:none;
+}
+
+.clicksearch i{
+    font-size: x-large;
+    margin-left:10px;
+}
+
+.cart{
+    font-size:x-large;
+}
+
+.user{
+    font-size:x-large;
+}
+
+.abc{
+    width:100%;
+    height:44px;
+    margin:0;
+}
+
+/* KẾT THÚC NAVBAR */
+
+.slide{
+    width:100%;
+    
+}
+
+.slider{
+    display:block;
+    width:100%;
+    
+}
+
+
+
+.bestseller{
+    width:100%;
+    height:500px;
+   
+
+}
+
+.produceimg img{
+    width:85%;
+    height:150px;
+    border-radius: 10%;
+    margin:15px 0px 0px 20px;
+    object-fit: cover;
+}
+
+.bestseller h1{
+    font-family: 'Dancing Script', cursive;
+    color:#e7808f;
+    border-color: #062239;
+    text-align:center;
+    font-size: 50px;
+}
+
+.item{
+    width:20%;
+    height:350px;
+    background:#e7808f;
+    border-radius:10%;
+    
+}
+
+.produces-first{
+    display:flex;
+    justify-content:space-around;
+    margin-bottom:50px;
+    margin-top:50px;
+}
+
+.produces-second{
+    display:flex;
+    justify-content:space-around;
+    margin-bottom:50px;
+}
+
+.produces-third{
+    display:flex;
+    justify-content:space-around;
+    margin-bottom:50px;
+}
+
+.details{
+    font-family: 'DynaPuff', cursive;
+
+}
+
+.details b{
+    font-size: 25px;
+    margin-left:15px;
+}
+
+.prize {
+    color:green;
+    margin-left:15px;
+}
+
+.sold{
+    margin-left:15px;
+}
+
+.addcart{
+    width:110px;
+    height:40px;
+    border:none;
+    border-radius:12px;
+    margin-left:70px;
+    font-family: 'DynaPuff', cursive;
+    font-size:medium;
+    
+}
+
+.buyit{
+    width:70px;
+    height:40px;
+    background-color:red;
+    border:none;
+    border-radius:12px;
+    font-family: 'DynaPuff', cursive;
+    font-size:medium;
+}
+
+.buyit:hover{
+    background-color:rgba(255, 0, 0, 0.386);
+    color:white;
+}
+
+.addcart:hover{
+    background-color:rgba(255, 255, 255, 0.276);
+}
+
+
+/* phần footer */
+.footer{
+    display:flex;
+    justify-content:space-around;
+    background-color:#e7808f;
+    width:100%;
+    height:150px;
+    align-items:center;
+    
+}
+
+.footer h1{
+    font-family: 'Dancing Script', cursive;
+}
+
+.contact li{
+    margin-bottom:5px;
+}
+
+.pay li{
+    margin-bottom:10px;
+}
+
+.pay b{
+    margin-bottom:10px;
+}
+
+.footer-second{
+    display:flex;
+    justify-content:space-around;
+    background-color:#e7808f;
+    width:100%;
+    height:150px;
+    align-items:center;
+    margin-top:1100px;
+}
+
+.footer-second h1{
+    font-family: 'Dancing Script', cursive;
+}
+
+.contact li{
+    margin-bottom:5px;
+}
+
+.pay li{
+    margin-bottom:10px;
+}
+
+.pay b{
+    margin-bottom:10px;
+}
+/* kết thúc phần footer */
+
+/* PHẦN LOGIN */
+html{
+    background-color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.loginform{
+    border-radius: 5%;
+    height:400px;
+    width:500px;
+    background-color:#e7808f;
+    margin:0 auto;
+    color:black;
+    margin-top:100px;
+    
+}
+
+.loginform h1{
+    text-align:center;
+    padding:20px 0 0 0;
+    margin:0;
+}
+
+.loginform p{
+    text-align:center;
+    
+}
+
+.signupform{
+    border-radius: 5%;
+    height:500px;
+    width:500px;
+    background-color:#e7808f;
+    margin:0 auto;
+    color:black;
+    margin-top:100px;
+    
+}
+
+.signupform h1{
+    text-align:center;
+    padding:20px 0 0 0;
+    margin:0;
+}
+
+.signupform p{
+    text-align:center;
+    
+}
+
+.no-account{
+    margin-top:2px;
+}
+
+.no-account a{
+    color:blue;
+}
+
+.no-account a:hover{
+    text-decoration:underline;
+}
+
+#loginbutton{
+    margin:0px 30px 0 30px;
+    background-color:#0c404c;
+    color:white;
+    width:150px;
+    height:50px;
+    margin: 25px 0 0 325px;
+    border:none;
+    border-radius:8px;
+    font-size:larger;
+    cursor:pointer;
+}
+
+#signupbutton{
+    margin:0px 30px 0 30px;
+    background-color:#0c404c;
+    color:white;
+    width:150px;
+    height:50px;
+    margin: 25px 0 0 325px;
+    border:none;
+    border-radius:8px;
+    font-size:larger;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color:#0f677b;
+}
+
+#invalidloginname{
+    position:absolute;
+    color:red;
+    margin:0;
+    z-index:1;
+    margin:0 0 0 15px;
+}
+
+#invalidloginpass{
+    position:absolute;
+    color:red;
+    margin:0;
+    z-index:1;
+    margin:0 0 0 15px;
+}
+
+#invalidemail{
+    position:absolute;
+    color:red;
+    margin:0 0 0 15px;
+    z-index:1;
+    
+}
+
+.inputform{
+    width:100%;
+    height:30px;
+    border:1px solid gray;
+    border-radius:13px;
+}
+
+
+.form-control{
+    margin:0 30px 0 30px;
+}
+
+
+/* PHẦN ABOUT */
+
+.aboutheader{
+    font-family: 'Dancing Script', cursive;
+    color:#e7808f;
+    margin:30px;
+    font-size:50px;
+    text-align:center;
+}
+
+.info{
+    margin:0 0 0 50px;
+    width:50%;
+}
+
+.map{
+    margin-top:0px;
+    width:50%;
+}
+
+.allinformation{
+    display:flex;
+}
+
+.story h1{
+    text-align:center;
+    font-family: 'Dancing Script', cursive;
+    color:#e7808f;
+}
+
+.story{
+    padding:30px 150px;
+}
+
+/* PHẦN USER */
+.account {
+    background-color:#e7808f;
+    width:600px;
+    height:450px;
+    border-radius:10%;
+    margin:60px 400px;
+}
+
+.account h1{
+    font-family: 'Dancing Script', cursive;
+    font-size:50px;
+    text-align:center;
+    margin: 10px;
+    color:white;
+}
+
+.account p {
+    margin-left: 20px;
+    font-size:large;
+}
+
+.accountbutton .change{
+    background-color:#062239;
+    color:white;
+    font-family: 'Modak', cursive;
+    border:none;
+    padding:23px;
+    border-radius:17px;
+    font-size:large;
+    
+  
+}
+
+.accountbutton .logout{
+    background-color:#062239;
+    color:white;
+    font-family: 'Modak', cursive;
+    border:none;
+    padding:25px; 
+    border-radius:17px;
+    text-decoration:none;
+    font-size:large;
+}
+
+.accountbutton{
+    margin:100px 0 0 290px;
+}
+
+.change:hover{
+    background-color:gray;
+    color:black;
+}
+
+.logout:hover{
+    background-color:gray;
+    color:black;
+}
+
+/* PHẦN CART */
+
+.cartform h1{
+    font-size:50px;
+    font-family: 'DynaPuff', cursive;
+    color:#e7808f;
+    text-align:center;
+    margin:50px ;
+}
+
+.cartproduces{
+    margin-left:30px;
+}
+
+.firstproduce{
+    width:1000px;
+    height:50px;
+    display:flex;
+    justify-content:space-around;
+    border:black solid;
+    border-radius:12px;
+    padding:20px;
+    margin:50px 140px;
+}
+
+.quantity{
+    margin-left:150px;
+    border-radius:12px;
+    border:black solid;
+    font-size:large;
+    font-family: 'Modak', cursive;
+}
+
+.buy{
+    color:white;
+    background-color:#e7808f;
+    width:100px;
+    border:none;
+    border-radius:12px;
+    border:black solid;
+    font-size:large;
+    font-family: 'Modak', cursive;
+}
+
+.delete{
+    color:white;
+    background-color:#e7808f;
+    width:70px;
+    border:none;
+    border-radius:12px;
+    border:black solid;
+    font-size:large;
+    font-family: 'Modak', cursive;
+}
+
+.produceprice{
+    display:flex;
+    color:green;
+    border: black solid;
+    width:100px;
+    text-align:center;
+    height:50px;
+    margin:0;
+    border-radius:12px;
+    align-items:center;
+    justify-content:center;
+    font-size:large;
+    font-family: 'Modak', cursive;
+}
+
+.producename{
+    font-size:larger;
+    width:100px;
+    text-align:center;
+    height:50px;
+    margin:0;
+    border-radius:12px;
+    align-items:center;
+    justify-content:center;
+    font-family: 'Modak', cursive;
+}
+.choseproduce{
+    width:20px;
+    height:20px;
+    margin-top:15px;
+}
+
+.payall{
+    width:150px;
+    height:60px;
+    background-color:#e7808f;
+    color:white;
+    font-size:xx-large;
+    border:black solid;
+    border-radius:16px;
+    margin-left:1000px;
+    margin-bottom:50px;
+    font-family: 'Modak', cursive;
+}
+
+/* PHẦN CHI TIẾT SẢN PHẨM */
+
+/* PLAY STATION 5 */
+
+.firstcontainer{
+    display:flex;
+}
+
+.firstdetails{
+    display:flex;  
+     
+}
+
+.produceinformation{
+    background-color:#e7808f;
+    width:600px;
+    height:450px;
+    margin:50px 0 0 0;
+    border-radius:15px;
+    margin-left:70px;
+}
+
+.produceinformation h1{
+    margin-left:30px;
+    font-family: 'Dancing Script', cursive;
+    font-size:46px;
+    margin-top:20px;
+    margin-bottom:0;
+}
+
+.star{
+    display:flex;
+}
+
+.stars{
+    margin-left:30px;
+}
+
+.produceinformation b{
+    margin-left:30px;
+}
+
+.color{
+    margin-left:30px;
+    display:flex;
+    align-items:center;
+}
+
+.produceinformation h2{
+    margin-left:40px;
+    color:green;
+    margin-top:0;
+    font-size:xx-large;
+}
+
+.option:focus{
+    border:none;
+}
+
+.produceinformation h3{
+    margin-left:30px;
+    margin-top:0;
+    font-size:larger;
+}
+
+.produceinformation #cars{
+    width:200px;
+    height:40px;
+    margin-left:30px;
+}
+
+#car option{
+    width:200px;
+    height:40px;
+}
+
+.secondslide{
+    width:600px;
+    height:450px;
+    border-radius:15px;
+    object-fit:cover;
+    
+}
+
+.secondslider{
+    display:block;
+    width:100%;
+    margin-top:50px;
+    margin-left:50px;
+    
+}
+
+.addtocart{
+    width:150px;
+    height:50px;
+    background-color:white;
+    border:black solid;
+    border-radius:15px;
+    font-size:20px;
+    font-family: 'Modak', cursive;
+    margin-left:290px;
+}
+
+.buynow{
+    width:100px;
+    height:50px;
+    background-color:#e7808f;
+    color:#062239;
+    border:black solid;
+    border-radius:15px;
+    font-size:20px;
+    font-family: 'Modak', cursive;
+    margin-left:20px;
+}
+
+.buyproduce{
+    display:flex;
+    margin-top:70px;
+}
+
+.addtocart:hover{
+    background-color:gray;
+    
+}
+
+.buynow:hover{
+    background-color:gray;
+}
+
+.product-specifications{
+    width:45%;
+}
+.product-specifications table {
+	border-collapse: collapse;
+	width:100%;
+	margin-bottom: 20px;
+    margin:50px;
+}
+
+.product-specifications th, td {
+	padding: 10px;
+	border: 1px solid #ddd;
+}
+
+.product-specifications th {
+	background-color: #eee;
+}
+
+.product-specifications h2{
+    margin-left:30px;
+    font-family: 'DynaPuff', cursive;
+    font-size:35px;
+    margin-bottom:20px;
+}
+
+.description{
+    width:45%;
+    margin:0px 0 0px 100px;
+}
+
+.seconddetails{
+    display:flex;
+}
+
+.description h2{
+    margin-left:30px;
+    font-family: 'DynaPuff', cursive;
+    font-size:35px;
+    margin-bottom:60px;
+}
+
+/* PHẦN PAY */
+
+.order h1{
+    font-size:50px;
+    color:#e7808f;
+    text-align:center;
+}
+.order{
+    background-color:white;
+    width:700px;
+    height:1000px;
+    border:black solid;
+    border-radius:20px;
+    margin-left:350px;
+    font-family: 'DynaPuff', cursive;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+.order img{
+    width:200px;
+    border-radius:12px;
+    margin:5px;
+}
+
+.details-product-order{
+    margin-left:30px;
+}
+
+.details-product-order h5{
+    font-size:larger;
+    margin-bottom:20px;
+    
+}
+
+.productorder{
+    display:flex;
+    width:90%;
+    height:150px;
+    background-color:#e7808f;
+    border:black solid;
+    border-radius:15px;
+    margin-left:30px;
+}
+
+.quantityorder{
+    margin-bottom:10px;
+}
+
+.order h4{
+    margin-left:30px;
+    font-size:larger;
+}
+
+.details-product-order .product-price{
+    color:green;
+}
+
+.address{
+    display:flex;
+    width:90%;
+    height:200px;
+    background-color:#e7808f;
+    border:black solid;
+    border-radius:15px;
+    margin-left:30px;
+}
+
+.address iframe{
+    width:400px;
+    height:190px;
+    margin:5px;
+    border-radius:12px;
+}
+
+.address h5{
+    margin-bottom:10px;
+}
+
+.address h6{
+    font-size:medium;
+    margin:0;
+    margin-bottom:15px;
+}
+
+.payment{
+    display:flex;
+    width:90%;
+    height:200px;
+    background-color:#e7808f;
+    border:black solid;
+    border-radius:15px;
+    margin-left:30px;
+}
+
+.payment-change{
+    display:flex;
+    width:100%;
+    height:50px;
+    align-items:center;
+}
+
+.payment-product-order{
+    
+    width:100%;
+}
+
+.payment-change h5{
+    font-size:larger;
+    margin-left:30px;
+    margin-right:280px;
+}
+
+.payment-change button{
+    width:80px;
+    height:30px;
+    border:black solid;
+    border-radius:9px;
+    background-color:white;
+    color:#e7808f;
+    font-size:medium;
+    font-family: 'Modak', cursive;
+}
+
+.payment-change button:hover{
+    background-color:gray;
+}
+
+.total h4{
+    font-size:medium;
+    margin-top:10px;
+    margin-left:60px;
+}
+
+.ordernow{
+    width:150px;
+    height:55px;
+    border: black solid;
+    border-radius:12px;
+    background-color:#e7808f;
+    color:black;
+    font-size:larger;
+    font-family: 'Modak', cursive;
+    margin-left:530px;
+    margin-top:20px;
+}
+
+/* PHẦN ĐƠN HÀNG ĐÃ ĐƯỢC ĐẶT */
+.order-completed{
+    width: 700px;
+    height:300px;
+    background-color:#e7808f;
+    border-radius:30px;
+    border:black solid;
+    margin-top:50px;
+    margin-left:350px;
+    margin-bottom:150px;
+}
+
+.order-completed h1{
+    text-align:center;
+    font-family: 'Dancing Script', cursive;
+    color:black;
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+.order-completed p{
+    text-align:center;
+    font-family: 'Modak', cursive;
+    color:white;
+}
+
+.order-completed h5{
+    margin-left:300px;
+    font-family: 'Modak', cursive;
+    color:black;
+    font-size:larger;
+
+}
+
+.order-completed button{
+    width:200px;
+    height:50px;
+    background-color:white;
+    color:#e7808f;
+    font-size:larger;
+    font-family:'Modak', cursive;
+    border:black solid;
+    border-radius:12px;
+    margin-left:250px;
+}
+
+.order-completed button:hover{
+    background-color:gray;
+}
+
+/* PHẦN CANCEL ORDER */
+.cancel-order{
+    width:600px;
+    height:400px;
+    background-color:#e7808f;
+    border: black solid;
+    border-radius:30px;
+    margin-left:400px;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+.cancel-order h1{
+    font-size:40px;
+    text-align:center;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.cancel-order h3{
+    margin-left:30px;
+    margin-top:0px;
+    font-family:'Modak', cursive;
+}
+
+.reasons{
+    width:500px;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+#checked-false{
+    margin-left:10px;
+    margin-top:19px;
+    font-family:'Modak', cursive;
+    color:red;
+
+}
+#cancelorder{
+    width:150px;
+    height:50px;
+    background-color:white;
+    border:black solid;
+    border-radius:10px;
+    font-size:large;
+    font-family:'Modak', cursive;
+    margin-left:430px;
+    margin-top:10px;
+}
+
+#cancelorder:hover{
+    background-color:gray;
+}
